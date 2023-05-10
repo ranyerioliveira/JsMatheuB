@@ -34,5 +34,13 @@ if(peso >= 45 && nome == "Ranyeri" || dieta == true){
 
 document.write("<p>O mais indicado é isolar as operações caso tenha mais operadores envouvidos</p>")
 
+var salario = 2000;
+var cargo = "Professor";
+var vr = false;
 
+if ((salario <= 2000 && cargo ==="Professor") || vr === true ){
+    console.log("Ganha VR");
+}else{
+    console.log("Agora você ganha VR");
+}
 

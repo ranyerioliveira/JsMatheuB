@@ -88,7 +88,7 @@ console.log(objeto.profissao); //para pegar um unico objeto, se coloca a "variav
 
 document.write("<h2>Operadores</h2><br><p>== Igual</p><p>!= diferente</p><p>>= Maior ou igual</p><p><= Menor igual</p><p>=== Igual conferindo o dados(mais indicado que o ==)</p><p>!== Diferente conferindo dados(mais indicado que o !=)</p> <p>> Maior</p> <p>< Menor</p><br>")
 
-document.write("<h2>If, else If e else</h2>")
+document.write("<h2>If, else If e else</h2><br>")
 
 /*var numero1 = 10;
 var numero2 = 15;
@@ -122,9 +122,35 @@ if(idade >= 18){
     console.log(info);
 }*/
 
-var idade = 15;
+/*var idade = 15;
 
 if(idade === 15){
     console.log("Esse numero é igual")
 }
+*/
+document.write("<h2>AND(&&), OR(||) e NOT(!)</h2><p><ul><li>O operador AND ou &&, é utilizada para verificar se as  expressões são true, se um der false ela não vai ser execultada</li></ul></p>")
 
+var peso = 80;
+var idade = 18;
+
+if(peso >= 80 && idade <=18){
+    console.log("Tem que fazer dieta");
+}else{
+    console.log("Não precisa fazer dieta")
+};
+
+document.write("<ul><li>O operador OR ou ||, é quando qualquer expressão da operação der verdadeira</li></ul")
+
+if(peso == 80 || idade >=19){
+    console.log("Dieta ok")
+}else{
+    console.log("Não precisa da dieta agora")
+}// veja que uma expressão é true e a outra é false
+
+document.write("<ul><li>O operador NOT ou !, o valor da expressão é invertido, se ela for true a mesma vira false</li></ul")
+
+if(!(peso == 80 && idade ==18)){
+    console.log("true que virou false")
+}else{
+    console.log("False que virou true")
+}
