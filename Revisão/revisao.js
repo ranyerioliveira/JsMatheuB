@@ -147,10 +147,30 @@ document.write("<ul><li>O operador OR ou ||, é quando qualquer expressão da op
     console.log("Não precisa da dieta agora")
 }// veja que uma expressão é true e a outra é false*/
 
-document.write("<ul><li>O operador NOT ou !, o valor da expressão é invertido, se ela for true a mesma vira false</li></ul")
+document.write("<ul><li>O operador NOT ou !, o valor da expressão é invertido, se ela for true a mesma vira false</li></ul>")
 
 /*if(!(peso == 80 && idade ==18)){
     console.log("true que virou false")
 }else{
     console.log("False que virou true")
 }*/
+
+document.write("<h2>While - Estrutura de repetição</h2><p>Para incrementar um repetição é não gerar um loop infinito, é importante colocar um incrementador que é a variavel mais o ++, -- ou += -= e etc</p>");
+
+var x = "Karen";
+var k = 0;
+
+while(k<5){
+    console.log(x[k])
+
+    k++;
+}
+
+var n = 25;
+var r = 0;
+
+while(r<=4){
+    console.log(n[r]);
+
+    r++;
+}
