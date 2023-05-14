@@ -13,6 +13,17 @@ for(var n = 0; n < 7; n++){
 
 var arr = ["Ranyeri", "Karen", "Safira","Ágatha", "Nathalie"]
 
-for(var f = 0; f <= 4; f++){
+for(var f = 0; f < 5; f++){
    console.log(arr[f])
 };
+
+
+var arr = ["Ranyeri", "Karen", "Safira","Ágatha", "Nathalie"];
+
+for(var f = 0; f < arr.length; f++){
+   console.log(arr[f])
+};
+
+for(var mu = 1; mu <= 1000; mu += 5){
+   console.log(mu)
+}
