@@ -17,4 +17,37 @@ console.log(false);
 console.log(x < y);
 console.log(x > y);
 
-document.write("<h2>Operadores de comparação</h2><p><ul><li>== ,Significa que os dois valores são iguais<li>!=, significa que os valores são diferentes</li><li>>= , Maior ou igual</li><li><=, Menor ou igual</li></ul></p>")
+document.write("<h2>Operadores de comparação</h2><p><ul><li>== ,Significa que os dois valores são iguais<li>!=, significa que os valores são diferentes</li><li>>= , Maior ou igual</li><li><=, Menor ou igual</li><li>=== , Identifica que a igualdade até no tipo do dado, se é string ou number</li><li>!== , Identifica que a diferença até no tipo do dado, se é string ou number</li></ul></p>")
+
+console.log(x == x);
+console.log(x != y);
+console.log(x <= y);
+console.log(x >= y);
+
+document.write("<h2>Arrays</h2><p>Arrays são conjuntos de dados, ela é aberta com [] e cada dado é separado com ,. Se declara um array com uma variavel para que o dados seja salvo. Obs. Uma array é um object</p>")
+
+var arr = ["Ranyeri", "TI", "Ágatha", "Safira", "Nathalie"];
+
+console.log(arr);
+console.log(typeof arr);
+console.log(arr[3]); //com o uso do [] vc consegue colocar qual dados quer selecionar
+
+document.write("<h2>Object</h2><p>Object é uma lista ordenada (Ou não) de dados pre definifdos. Para criar um objeto é nssessario declarar uma variavel depois criar um bloco com {}, dentro das chaves você declara o nome do dados seguido com seu valor, lembrando que os dados são separados por , e o : para 'juntar' o nome do dado e o valor.</p>");
+
+var obj = {
+    nome: "Ranyeri",
+    idade:34,
+    filha1: "Safira",
+    filha2: "Ágatha",
+}
+
+console.log(obj);
+console.log(obj.nome);// para acessar um dados especifico é colocar a varivial.o nome do dado selecionado
+console.log(typeof obj);
+
+
+
+
+
+
+
