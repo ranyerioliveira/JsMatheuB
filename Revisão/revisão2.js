@@ -92,6 +92,32 @@ if(!(false)){
     console.log("Inverte o valor")
 };
 
+document.write("<h2>While - Estrutura de repetição (loop)</h2><p>Estrutura de repetição é muito utilizada não so no javascript e tmb em todas a linguagens de programação</p>")
+
+var lp = 0;
+
+while(lp <= 10){
+    console.log("O numero:"+ " " + lp)
+
+    lp++;
+}
+
+var nome = "Karen";
+var k = 0;
+
+while(k < 5){
+    console.log(nome[k])
+    k++;
+}
+
+var rany = 5;
+
+while(rany < 100){
+    console.log(rany)
+
+    rany *= 2;
+
+}
 
 
 
