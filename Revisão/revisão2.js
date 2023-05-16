@@ -119,5 +119,15 @@ while(rany < 100){
 
 }
 
+document.write("<h2>Estrutura For</h2><p>Estrutur de repetição com a mesma função que while, a diferença que todas as instruções são em uma linha</p>")
+
+for(var j = 0; j < 10; j++){
+    console.log(j)
+}
+
+for(var n = 10; n <= 100; n *= 2){
+    console.log(n)
+}
+
 
 
