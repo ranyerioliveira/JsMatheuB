@@ -128,6 +128,7 @@ for(var j = 0; j < 10; j++){
 for(var n = 10; n <= 100; n *= 2){
     console.log(n)
 }
+document.write("<h2>Break e Continue</h2><p>O break serve para parar o loop e o continue serve para pular o dado no loop</p>")
 
 
 
