@@ -21,6 +21,22 @@ var nomeDoBancoDeDados = "Ranyeri";
 
 dizerNome(nomeDoBancoDeDados);//Tambem pode usar variaveis no parametro
 
+function soma(a, b){
+    var soma = a + b;
+    return soma;
+}
 
+var somaUm = soma(4, 2)
+
+console.log(somaUm);
+
+function mult(x, y){
+    var mult = x * y;
+    return mult
+}
+
+var multUm = mult(4, 2);
+
+console.log(multUm);
 
 
