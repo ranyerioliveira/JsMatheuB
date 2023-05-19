@@ -132,3 +132,9 @@ document.write("<h2>Break e Continue</h2><p>O break serve para parar o loop e o 
 
 
 
+for(var b = 15; b < 100; b+=10){
+console.log(b)
+    
+}
+
+
