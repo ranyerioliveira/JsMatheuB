@@ -32,11 +32,23 @@ console.log(somaUm);
 
 function mult(x, y){
     var mult = x * y;
-    return mult
+    return mult;
 }
 
 var multUm = mult(4, 2);
 
 console.log(multUm);
+
+function divi(c, b){
+    var divi = c / b;
+    return divi;
+}
+
+var divi1 = divi(40, 2);
+
+console.log(divi1);
+
+
+
 
 
