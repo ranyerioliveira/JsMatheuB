@@ -9,8 +9,22 @@ function teste(){
 
          console.log(z);
 
+         //console.log(x);
+
+         //console.log(y);
+
     }
 
 teste();
 
+//console.log(z);// nao vai aparecer pq nao ta no escopo local, no function, e nao no global. o contrario funciona
+
+function testando(){
+
+    var z = 5;
+
+    console.log(z);
+};
+
+testando();
 
