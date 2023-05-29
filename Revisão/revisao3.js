@@ -37,7 +37,7 @@ for(j = 10; j > 0; j-- ){
     }
 }
 
-document.write("<h2>let e const</h2><p>let: registra o dado igual ao var, podendo ser modificado o dados no codigo quando quiser</p><p>const: registra o dado, porem não pode ser modificado e o dados será sempre constante</p>")
+document.write("<h2>let e const</h2><p>let: registra o dado igual ao var, podendo ser modificado o dados no codigo quando quiser</p><p>const: registra o dado, porem não pode ser modificado e o dados será sempre constante</p>");
 
 let dado1 = 5;
 
@@ -51,8 +51,24 @@ const dado2 = 25;
 
 console.log(dado2);
 
-dado2 = 30;
+//dado2 = 30;
 
-console.log(dado2)// o dado não pode ser modificado
+//console.log(dado2);// o dado não pode ser modificado
+
+document.write("<h2>parseFloat, parseint e toFixed</h2><p>parseFloat: transforma string em numero passando para numero real</p><p>parseInt: transforma string em numero passando para numero inteiro</p><p>toFixed: escolher quantas casas decimais</p>");
+
+var numero1 = parseFloat("26.562");
+
+console.log(typeof numero1);
+
+console.log(numero1);
+
+var numero2 = parseInt("26.562");
+
+console.log(typeof numero2);
+
+console.log(numero2);
+
+
 
 
