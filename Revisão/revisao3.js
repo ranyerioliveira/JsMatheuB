@@ -69,6 +69,9 @@ console.log(typeof numero2);
 
 console.log(numero2);
 
+var numero3 = 17.3657
+
+console.log(numero3.toFixed(2));
 
 
 
