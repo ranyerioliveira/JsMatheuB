@@ -10,4 +10,8 @@ var frase2 = "não sei nem com dizer, só sei que foi assim"
 console.log(frase2);
 console.log(frase2.toUpperCase());
 
+var fraseCaixaBaixa = frase.toLocaleLowerCase(); // atribuição de uma variavel
+
+console.log(fraseCaixaBaixa);
+
 
