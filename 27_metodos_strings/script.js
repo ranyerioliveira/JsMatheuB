@@ -27,7 +27,9 @@ console.log(ser)
 
 var novaPalavra = frase.replace("programador", "pai");
 
-console.log(novaPalavra);
+console.log(novaPalavra);//
+
+
 
 
 
