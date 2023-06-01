@@ -16,3 +16,5 @@ var z = 24.548414
 
 console.log(z.toFixed(2)) // conta a quantidade de casa decimais
 
+
+
