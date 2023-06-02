@@ -1,4 +1,4 @@
-document.write("<h1>Metodos de arrays</h1><p>length: Contagem de itens dentro de uma array</p><p>push: Incluir um ou mais item no final de uma array</p><p>pop: Metodo que retira o ultimo elemento que foi incluido</p><p>unshift: Adiciona um item no começo do array</p><p>shift: Ele remove no inicio da array</p><p>Acessar o ultimo elemento com length e o -1</p>")
+document.write("<h1>Funções de arrays</h1><p>length: Contagem de itens dentro de uma array</p><p>push: Incluir um ou mais item no final de uma array</p><p>pop: Metodo que retira o ultimo elemento que foi incluido</p><p>unshift: Adiciona um item no começo do array</p><p>shift: Ele remove no inicio da array</p><p>Acessar o ultimo elemento com length e o -1</p>")
 
 //length
 
