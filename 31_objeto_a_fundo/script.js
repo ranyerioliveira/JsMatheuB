@@ -19,6 +19,16 @@ var soma = pessoa.soma(2, 2);
 
 console.log(soma);
 
+function teste(x, y){
+    return x - y;
+}
+
+var t2 = teste(4, 1);
+
+console.log(t2);
+
+
+
 
 
 
