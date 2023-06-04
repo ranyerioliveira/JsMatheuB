@@ -18,6 +18,11 @@ let pessoa = {
     frase: function(){
         console.log("Essa é uma função dentro de um objeto");
     },
+    dizerNome: function(){
+        console.log("O meu nome é "+ this.nome)
+    }
     
 };
+
+pessoa.dizerNome();
 
