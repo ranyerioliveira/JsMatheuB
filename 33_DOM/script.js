@@ -25,4 +25,5 @@ console.log(lis2);
 
 var itens = document.getElementsByClassName("item");
 
-console.log(itens[1]);
+console.log(itens[3]);
+
