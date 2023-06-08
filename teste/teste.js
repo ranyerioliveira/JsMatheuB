@@ -78,5 +78,9 @@ if(x === 4 || r < 2){
 
 // uma das expressões tem que ser verdadeira
 
+//NOT !
 
+if(!(x !== r)){
+    console.log(true)
+};
 
