@@ -57,3 +57,26 @@ if(numero2 === 3){
     console.log("O numero é diferente")
 }
 
+//operador AND &&
+
+var x = 4;
+var r = 4;
+var z = 3;
+var y = "Ranyeri"
+
+if(x === r && r <= z ){
+    console.log("Expressões iguais")
+} else{
+    console.log("Não é verdadeira")
+}; // as expressões tem que ser verdadeiras
+
+//operador OR ||
+
+if(x === 4 || r < 2){
+    console.log("O OR é verdadeiro")
+}
+
+// uma das expressões tem que ser verdadeira
+
+
+
