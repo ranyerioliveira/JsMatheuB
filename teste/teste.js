@@ -120,4 +120,5 @@ var y = 12
 
 //ou
 
-console.log(x += y)
+console.log(x += y);
+console.log(x -= y);
