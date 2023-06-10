@@ -1,6 +1,6 @@
 //boolear
 
-var num1 = 5;
+/*var num1 = 5;
 var num2 = 4;
 
 console.log(5>4);
@@ -109,4 +109,15 @@ var v = 0;
 while(v < 4){
     console.log(array[v]);
     v++
-}//estrutura de repetição com array
+}//estrutura de repetição com array*/
+
+//peradores de atribuição
+
+var x = 10;
+var y = 12
+
+//console.log(x = x + y);
+
+//ou
+
+console.log(x += y)
