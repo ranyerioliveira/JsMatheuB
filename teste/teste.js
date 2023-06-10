@@ -84,5 +84,29 @@ if(!(x !== r)){
     console.log(true)
 };
 
- 
+var rep = 0;
 
+//Estrutura de repetição com while
+
+while(rep <= 5){
+    console.log(rep)
+    rep++
+}//contagem de numeros
+
+var meuNome = "Jetro";
+
+var rp = 0;
+
+while(rp< 5){
+    console.log(meuNome[rp])
+    rp++;
+}//repetição com strings seperando cada letra
+
+var array = ["Jessica", 45, "Adm", 1.801];
+
+var v = 0;
+
+while(v < 4){
+    console.log(array[v]);
+    v++
+}//estrutura de repetição com array
