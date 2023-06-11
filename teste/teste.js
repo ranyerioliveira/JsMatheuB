@@ -140,3 +140,6 @@ var arr = ["Safira", "Ágatha", "Nathalie", "Karen"];
 for(var n = 0; n < arr.length; n++){
     console.log(arr[n])
 };
+
+//break e continue
+
