@@ -1,11 +1,39 @@
-var title = document.querySelector("#title");
+//criando um elemento dentro do html
 
-//innerHTML
+//primeiro vc criar a tag
 
-title.innerHTML = "Texto modificado";
+var novoParagrafo = document.createElement("p")
 
-//textContent > mais utilizado, recomendado utlizado ele
+//depois cria o texto com o nó
 
-var paragrafo = document.querySelector("#paragrafo");
+var texto = document.createTextNode("Esse é um novo texto")
 
-paragrafo.textContent = "modifiquei novamente";
+//direciona pro html
+
+novoParagrafo.appendChild(texto);
+
+//jogar para o html selecionando onde vai entrar, neese caso será no body
+
+var body = document.querySelector("body")
+
+console.log(body)
+
+//Agora é colocar o texto no body no hmtl html, 
+
+body.appendChild(novoParagrafo)
+
+//inserir um conteiner
+
+var container = document.getElementById("container")
+
+console.log(container)
+
+//criando um elemento dentro do conteiner (div)
+
+var el = document.createElement("span")
+
+el.appendChild(document.createTextNode("Novo elemento dentro da div"))
+
+console.log(el)
+
+container.appendChild(el);
