@@ -122,3 +122,21 @@ var y = 12
 
 console.log(x += y);
 console.log(x -= y);
+
+//for
+
+var sasa = "Safira"
+
+for(var s = 0; s <= sasa.length; s++){
+    console.log(sasa[s]);
+};
+
+for(var f = 0; f <= 10; f++){
+    console.log("O numero é o " + f)
+};
+
+var arr = ["Safira", "Ágatha", "Nathalie", "Karen"];
+
+for(var n = 0; n < arr.length; n++){
+    console.log(arr[n])
+};
