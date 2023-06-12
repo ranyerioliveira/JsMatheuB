@@ -37,3 +37,11 @@ el.appendChild(document.createTextNode("Novo elemento dentro da div"))
 console.log(el)
 
 container.appendChild(el);
+
+var subTitulo = document.createElement("h2")
+
+var texto2 = document.createTextNode("Um outro titulo");
+
+subTitulo.appendChild(texto2);
+
+body.appendChild(subTitulo);
