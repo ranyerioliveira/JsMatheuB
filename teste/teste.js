@@ -109,7 +109,7 @@ var v = 0;
 while(v < 4){
     console.log(array[v]);
     v++
-}//estrutura de repetição com array*/
+}//estrutura de repetição com array
 
 //peradores de atribuição
 
@@ -141,5 +141,28 @@ for(var n = 0; n < arr.length; n++){
     console.log(arr[n])
 };
 
-//break e continue
+//break e continue*/
 
+// alterando conteudo no html
+
+var texto = document.createElement("p")
+
+console.log(texto)
+
+var conteudo = document.createTextNode("Novo texto");
+
+texto.appendChild(conteudo);
+
+var corpo = document.querySelector("body")
+
+corpo.appendChild(conteudo);
+
+var titulo = document.createElement("h2")
+
+var textoTitulo = document.createTextNode("Novo titulo");
+
+titulo.appendChild(textoTitulo);
+
+var corpo2 = document.querySelector("header");
+
+corpo2.appendChild(textoTitulo)
