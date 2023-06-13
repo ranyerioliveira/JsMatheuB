@@ -166,3 +166,13 @@ titulo.appendChild(textoTitulo);
 var corpo2 = document.querySelector("header");
 
 corpo2.appendChild(textoTitulo)
+
+var texto3 = document.createElement("span")
+
+var conteudo2 = document.createTextNode("Esse é mais um novo texto")
+
+texto3.appendChild(conteudo2);
+
+//var body2 = document.querySelector("body");
+
+corpo.appendChild(conteudo2);
