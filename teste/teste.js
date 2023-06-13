@@ -141,7 +141,7 @@ for(var n = 0; n < arr.length; n++){
     console.log(arr[n])
 };
 
-//break e continue*/
+//break e continue
 
 // alterando conteudo no html
 
@@ -169,10 +169,17 @@ corpo2.appendChild(textoTitulo)
 
 var texto3 = document.createElement("span")
 
-var conteudo2 = document.createTextNode("Esse é mais um novo texto")
+var conteudo2 = document.createTextNode(" Esse é mais um novo texto")
 
 texto3.appendChild(conteudo2);
 
 //var body2 = document.querySelector("body");
 
-corpo.appendChild(conteudo2);
+corpo.appendChild(conteudo2);*/
+
+var titulo = document.querySelector("#titulo");
+
+titulo.textContent = "Novo titulo";
+
+
+
