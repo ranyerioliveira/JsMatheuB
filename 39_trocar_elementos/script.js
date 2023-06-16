@@ -26,6 +26,7 @@ var pai = title.parentNode; //isso ja seleciona diretamen a tag pai do elemento
 
 pai.replaceChild(el, title) //sleciona primeiro a tag que vai substituir e depois a que vai ser substituida
 
+console.log("teste")
 
 
 
