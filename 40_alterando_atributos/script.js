@@ -8,8 +8,6 @@ var btn = document.querySelector("#btn");
 
 btn.setAttribute("disabled", "disabled"); //exemplo de desbilitar um botão
 
-var cor = document.querySelector("#cor")
 
-cor.setAttribute("color", "red");
 
 
