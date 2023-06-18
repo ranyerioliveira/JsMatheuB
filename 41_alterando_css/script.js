@@ -6,11 +6,11 @@ var title = document.querySelector("#title");
 
 title.style.color = "blue" // varivel, css e o atributo.
 
-title.style.background = "yellow"
+title.style.backgroundColor = "yellow" // quando a popriedade tem mais de uma palavra e separa por traço no CSS, no JS se escreve com camel case.
 
 var corpo = document.querySelector("body")
 
-corpo.style.background = "red";
+corpo.style.backgroundColor = "red";
 
 
 // adicionar varios estilos de CSS
