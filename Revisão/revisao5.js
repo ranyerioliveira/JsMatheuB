@@ -49,4 +49,13 @@ modi.innerHTML = "Novo texto"; // coloca o novo texto ou dado no html
 
 
 
+//remover elemento
+
+var remover = document.getElementById("remover");
+var paragrafoRemovido = document.getElementById("paragrafoRemovido")
+
+remover.removeChild(paragrafoRemovido)
+
+
+
 
