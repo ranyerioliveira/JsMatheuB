@@ -82,5 +82,11 @@ var subs = document.getElementById("substituir")
 
 corpo.replaceChild(criar, subs)
 
+//alterando atributo
+
+criar.setAttribute("disabled", "disabled");// sleciona o elemento, coloca o setAttribute e depois os atributos que quiser
+
+
+
 
 
