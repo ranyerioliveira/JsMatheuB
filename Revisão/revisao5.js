@@ -58,4 +58,15 @@ remover.removeChild(paragrafoRemovido)
 
 
 
+// adicionar elemento, e criar classe ou id
+
+var elemento = document.createElement ("div");//cria a tag
+elemento.classList = "div-criada";// adiciona a classe a tag
+var elementoTexto = document.createTextNode("Adicionando elementos")//criando texto
+elemento.appendChild(elementoTexto); //colocando o texto no elemento
+corpo.appendChild(elemento);//colocando a tag dentro da tag pai
+
+
+
+
 
