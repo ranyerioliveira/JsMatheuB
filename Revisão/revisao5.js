@@ -68,5 +68,19 @@ corpo.appendChild(elemento);//colocando a tag dentro da tag pai
 
 
 
+// trocar elemento
+
+//criando o que vai substituir
+var criar = document.createElement("button");
+criar.classList = "botao"
+var botaoTexto = document.createTextNode("Clique aqui")
+criar.appendChild(botaoTexto);
+
+//selecionar o que vai ser substituido
+
+var subs = document.getElementById("substituir")
+
+corpo.replaceChild(criar, subs)
+
 
 
