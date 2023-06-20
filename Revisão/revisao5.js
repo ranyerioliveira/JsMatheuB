@@ -30,3 +30,23 @@ var cont2 = document.createTextNode("Novo paragrafo dentro da div")
 
 prg.appendChild(cont2)
 
+
+var el = document.createElement("p")
+
+var tex = document.createTextNode("teste pra saber se ta sabendo");
+
+el.appendChild(tex);
+
+corpo.appendChild(el)
+
+
+
+// alterando elemento do html
+
+var modi = document.getElementById("modi");// pega a tag do html que ta com o ID
+
+modi.innerHTML = "Novo texto"; // coloca o novo texto ou dado no html
+
+
+
+
