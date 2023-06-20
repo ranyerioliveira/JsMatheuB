@@ -88,5 +88,18 @@ criar.setAttribute("disabled", "disabled");// sleciona o elemento, coloca o setA
 
 
 
+//Alterando CSS
+
+
+//corpo.style.backgroundColor = "blue" 
+//corpo.style.color = "white"
+
+corpo.style.cssText = "background: blue; font-size: 25px; color: white"
+
+cont.style.textAlign = "center"
+
+
+
+
 
 
