@@ -98,6 +98,10 @@ corpo.style.cssText = "background: blue; font-size: 25px; color: white"
 
 cont.style.textAlign = "center"
 
+//propriedade document
+
+console.log(document.body)
+
 
 
 

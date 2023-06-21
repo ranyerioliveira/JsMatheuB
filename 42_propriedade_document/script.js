@@ -7,6 +7,13 @@ console.log(document.body)
 
 document.links[1].textContent = "Twitter"// document= acessar o html, links = é o tipo de elemento, [1]= a posição, textContent é o metodo de modificação, 
 
-console.log(document.currentSc);
+
+console.log(document.URL);
+
+console.log(document.title);
+
+
+
+
 
 
