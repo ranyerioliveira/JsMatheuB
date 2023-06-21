@@ -1,4 +1,4 @@
-//incluir um elemento html com js
+ //incluir um elemento html com js
 
 var novoParagrafo = document.createElement("p"); // cria a tag (elemento)
 
