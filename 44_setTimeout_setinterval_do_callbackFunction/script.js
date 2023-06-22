@@ -18,5 +18,5 @@ setInterval(function(){
     console.log("Testando o setInterval")
 
 },
-2000)
+2000) // importante é utilizar o tempo certo, se for uma aplicação muito grande com o um intervalo de tempo pequeno por travar a maquina
 
