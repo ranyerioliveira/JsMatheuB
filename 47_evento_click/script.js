@@ -13,3 +13,13 @@ this.style.color = "red"// consegue modificar a propriedade utlizando a instruç
 }
 
 );// adicionar um evento de click
+
+var title = document.getElementById("title")
+
+title.addEventListener("click", function(){
+    //console.log("clicou no titulo")
+
+    var subtitulo = document.getElementById("subtitulo")
+    subtitulo.style.display = "none" // da para colocar função de sumir com um outro elementos clicando em outro
+
+})
