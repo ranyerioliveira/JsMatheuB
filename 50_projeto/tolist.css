@@ -1,3 +1,68 @@
-h1{
-    color: red;
+/*Estilo do body*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    background-image: linear-gradient(to right, #E65763, #24073D);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
 }
+
+#tasks-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*estilo do formulario(task form)*/
+
+#tasks-header{
+    margin-top: 40px;
+}
+
+#add-task-form{
+    position: relative;
+}
+
+#add-task-form input{
+    box-sizing: border-box;
+    border: 1px solid #24073D;
+    color: #24073D;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#add-task-form input:focus{
+    outline: none;
+}
+
+#add-task-form input::placeholder{
+    color: #24073D;
+}
+#add-bnt{
+    position: absolute;
+    background: white;
+    border: 1px solid #24073D ;
+    cursor: pointer;
+    transition: .5s;
+    width: 60px;
+    height: 53px;
+    top: 0;
+    right: 0;
+    padding-top: 3px;
+}
+
+#add-bnt:hover{
+    background-color: #24073D;
+    color: white;
+}
+
+ion-icon{
+    font-size: 25px;
+}
+
+/*task container*/
+
+
