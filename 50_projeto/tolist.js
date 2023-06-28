@@ -6,7 +6,21 @@ function addTask(){
 
     //titulo da tarefa
     const taskTitle = document.querySelector("#task-title").value;//o value serve para pega o valor do input
-    console.log(taskTitle)
+   
+    if(taskTitle){
+
+        //clonar o template
+
+        const template = document.querySelector(".template");
+
+        const newTask = template.cloneNode(true);
+
+        //adicionar titulo
+        newTask.querySelector("#task-list").textContent = taskTitle;// foi defindo la em topo
+
+        //remover as classes desenessarias ----(parei aqui)-----
+
+    }
 }
 
 //evento de adicionar tarefa
