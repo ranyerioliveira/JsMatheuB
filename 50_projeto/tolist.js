@@ -18,7 +18,12 @@ function addTask(){
         //adicionar titulo
         newTask.querySelector("#task-list").textContent = taskTitle;// foi defindo la em topo
 
-        //remover as classes desenessarias ----(parei aqui)-----
+        //remover as classes desenessarias 
+        newTask.classList.remove("template");
+        newTask.classList.remove("hide");
+
+        //adicionar tarefa da lista ----(parei aqui)-----
+
 
     }
 }
