@@ -16,14 +16,15 @@ function addTask(){
         const newTask = template.cloneNode(true);
 
         //adicionar titulo
-        newTask.querySelector("#task-list").textContent = taskTitle;// foi defindo la em topo
+        newTask.querySelector(".task-title").textContent = taskTitle;// foi defindo la em topo
 
         //remover as classes desenessarias 
         newTask.classList.remove("template");
         newTask.classList.remove("hide");
 
         //adicionar tarefa da lista ----(parei aqui)-----
-
+        const list = document.querySelector("#task-list");
+        list.appendChild(newTask)
 
     }
 }
