@@ -26,6 +26,16 @@ function addTask(){
         const list = document.querySelector("#task-list");
         list.appendChild(newTask)
 
+        //adicionar o evento de romover
+
+        const removeBtn = newTask.querySelector(".remove-btn").addEventListener("click", function(){
+            removeTask(this)
+        })
+
+        //limpar texto
+
+        document.querySelector("#task-title").value = " ";
+
     }
 }
 
@@ -40,3 +50,9 @@ addBtn.addEventListener("click", function(e){// adicionar evento ao botão
     addTask()
 
 })
+
+//função de remover tarefa
+
+function removeTask(task){
+    console.log(task)
+}
